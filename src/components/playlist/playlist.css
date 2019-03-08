@@ -1,12 +1,3 @@
 .categorie {
     display: flex;
 }
-
-.playlist {
-    display: flex;
-    flex-direction: column;
-}
-
-h1,h2,h3 {
-    margin: 0;
-}

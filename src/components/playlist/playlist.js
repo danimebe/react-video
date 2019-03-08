@@ -1,4 +1,4 @@
-import React , { Component } from 'react';
+import React  from 'react';
 import Media from './media';
 import './playlist.css';
 
@@ -6,12 +6,9 @@ import './playlist.css';
 function PlayList(props) {
 
     const playList = props.playlist;
+    console.log(playList);
+    
     return (
-        <div className="playlist">
-
-            <h2>{  props.title } </h2>
-            <h3>{  props.description } </h3>
-
             <article className="categorie">
                 {
                     playList.map((item) => {
@@ -19,7 +16,6 @@ function PlayList(props) {
                     })
                 }
             </article>
-        </div>
         
     )
 }
