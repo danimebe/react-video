@@ -1,0 +1,36 @@
+{
+    "MyPlayList": {
+        "id": 1,
+        "playlist":[
+            {
+                "id": 1,
+                "title": "5 reasons to choose a nootebook over a desktop computer"
+            },
+            {
+                "id": 2,
+                "title": "Get Around easily with a new york limousine service"
+            },
+            {
+                "id": 3,
+                "title": "How to cook a tender juicy steak"
+            }
+        ]
+    },
+    "FriendsPlayLists":{
+        "id": 2,
+        "friends":[
+            {
+                "id":1,
+                "name": "Gordon",
+                "img": "../images/Momo.png"
+            },
+            
+            {
+                "id":1,
+                "name": "Adeline",
+                "img": "../images/Momo.png"
+            
+        ]
+    }
+
+}
