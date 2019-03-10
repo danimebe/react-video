@@ -1,5 +1,5 @@
 {
-    "MyPlayList": {
+    "myPlaylist": {
         "id": 1,
         "playlist":[
             {
@@ -16,7 +16,7 @@
             }
         ]
     },
-    "FriendsPlayLists":{
+    "friendsPlaylist":{
         "id": 2,
         "friends":[
             {
@@ -24,12 +24,12 @@
                 "name": "Gordon",
                 "img": "../images/Momo.png"
             },
-            
+
             {
-                "id":1,
+                "id":2,
                 "name": "Adeline",
                 "img": "../images/Momo.png"
-            
+            }
         ]
     }
 

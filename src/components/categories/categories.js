@@ -5,7 +5,6 @@ import './categories.css';
 
 function Categories(props){
     const categories = props.categories;
-    console.log(categories)
     return(
         <div className="Categories">
             {
