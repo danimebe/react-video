@@ -2,5 +2,8 @@
     display: flex;
     margin: 0 auto;
     min-height: 100vh;
-    background-color: #171B2F;
+}
+
+body {
+    margin: 0;
 }

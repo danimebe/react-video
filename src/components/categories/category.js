@@ -6,7 +6,7 @@ function Category(props) {
         <div className="Category">
             <p> {props.description}</p>
             <h2>{props.title}</h2>
-            <PlayList playlist={props.playlist} />
+            <PlayList playlist={props.playlist} handleOpenModal={props.handleOpenModal} />
         </div>
     )
 }
